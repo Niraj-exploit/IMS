@@ -17,14 +17,14 @@ const roleAuthentication = require("./middlewares/role-auth-middleware");
 var app = express();
 
 const http = require('http'); 
-const socketIo = require('socket.io'); 
+// const socketIo = require('socket.io'); 
 const server = http.createServer(app);
-const io = socketIo(server);
+// const io = socketIo(server);
 
-io.on('connection', (socket) => {
-  console.log('A user connected');
-  // You can handle events from the client here
-});
+// io.on('connection', (socket) => {
+//   console.log('A user connected');
+//   // You can handle events from the client here
+// });
 
 ConnectToDatabase()
   .then(() => console.log("connected to database..."))
