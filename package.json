@@ -19,7 +19,6 @@
     "nodemailer": "^6.9.5",
     "sequelize": "^6.32.1",
     "sequelize-cli": "^6.6.1",
-    "socket.io": "^4.7.2",
     "yup": "^1.2.0",
     "yup-password": "^0.2.2"
   }
